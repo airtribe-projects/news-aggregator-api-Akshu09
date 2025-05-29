@@ -110,12 +110,12 @@ URL: /news
 -Description: Fetch personalized news articles based on user preferences.
 
 Headers:
-Authorization: Bearer <JWT_TOKEN_HERE>
+Authorization: Bearer JWT_Token
 Success Response:
 {
   "news": [
-    {
-      "title": "Latest Technology News",
+{
+    "title": "Latest Technology News",
       "description": "An overview of the newest gadgets...",
       "url": "https://example.com/article1",
       "source": "TechCrunch"
